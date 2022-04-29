@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <div class="container">
+     <span class="big-circle"></span>
+         <img src="img/shape.png" class="square" alt="" />
+        <div class="form">
+        <div class="contact-info">
+         <h3 class="title">Reach me out</h3>
+        <p class="text">
+         My name is <b> Horacio Massava,</b> I have more than 2 years developing websites. I hold solid experience in Html, Javascript, and PHP.
+         I also use flameworks such bootstrap, Laravel and others! I am passionate about development and you may use the contacts below to reach out to me.
+          </p>
+
+        <div class="info">
+        <div class="information">
+              <img src="img/location.png" class="icon" alt="" />
+              <p>Maputo 00800, Mozambique</p>
+         </div>
+         <div class="information">
+              <img src="img/email.png" class="icon" alt="" />
+              <p>horaciomassava@gmail.com</p>
+        </div>
+         <div class="information">
+              <img src="img/phone.png" class="icon" alt="" />
+              <p>(+258) 833331003</p>
+        </div>
+        </div>
+
+        <div class="social-media">
+            <p>Connect with me :</p>
+        <div class="social-icons">
+              <a href="https://github.com/hmassava">
+                <i class="fa fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/hmassava/>
+                <i class="fa fa-linkedin"></i>
+              </a>
+              <a href="mailto:horaciomassava@gmail.com">
+                <i class="fa fa-google"></i>
+              </a>
+            </div>
+     </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+    
+      <fieldset>
+  
+        <form name="frmContact" class="needs-validation " method="post" action="contact.php" autocomplete="off">
+
+           
+            <h3 class="title">Contact Me</h3>
+            <div class="input-container">
+              <input type="text" name="txtName" class="input" id="txtName" required/>
+              <label for="Name">Full Name</label>
+              <span>Username</span>
+            </div>
+            <div class="input-container">
+              <input type="email" class="input"  name="txtEmail" id="txtEmail" required />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="txtMessage" id="txtMessage" class="input" required></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit" value="Send" name="submit" id="submit" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
